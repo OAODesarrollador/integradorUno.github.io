@@ -31,9 +31,10 @@
             Catalogo
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Productos.html">Todo</a></li>
-            <li><a class="dropdown-item" href="Productos.html">Celulares</a></li>
-            <li><a class="dropdown-item" href="Productos.html">Notebooks</a></li>
+
+            <li><a class="dropdown-item" href="#">Todo</a></li>
+            <li><a class="dropdown-item" href="/Celulares.html">Celulares</a></li>
+            <li><a class="dropdown-item" href="/Notebooks.html">Notebooks</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -41,12 +42,14 @@
             Productos
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Descripcion.html">Celular1</a></li>
-            <li><a class="dropdown-item" href="Descripcion.html">Celular2</a></li>
-            <li><a class="dropdown-item" href="Descripcion.html">Celular3</a></li>
-            <li><a class="dropdown-item" href="Descripcion.html">Notebook1</a></li>
-            <li><a class="dropdown-item" href="Descripcion.html">Notebook2</a></li>
-            <li><a class="dropdown-item" href="Descripcion.html">Notebook3</a></li>
+
+            <li><a class="dropdown-item" href="Descripcion.html" data-id="1">Celular1</a></li>
+            <li><a class="dropdown-item" href="Descripcion.html" data-id="2">Celular2</a></li>
+            <li><a class="dropdown-item" href="Descripcion.html" data-id="3">Celular3</a></li>
+            <li><a class="dropdown-item" href="Descripcion.html" data-id="4">Notebook1</a></li>
+            <li><a class="dropdown-item" href="Descripcion.html" data-id="5">Notebook2</a></li>
+            <li><a class="dropdown-item" href="Descripcion.html" data-id="6">Notebook3</a></li>
+
           </ul>
         </li>
       </ul>
@@ -60,21 +63,29 @@
 <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card shadow p-3 mb-4 " style="width:60%; border: 2px solid black">
-    <img src="img/Celular1.png" class="card-img-top" alt="Celular en oferta">
+
+    
       <div class="card-body">
-        <h5 class="card-title">Celular Samsung Galaxy A15 LTE Blue Black<h5>
+        <div  class="text-center tarjeta" data-id="1"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="1">Ver Detalle..</button>
+        <!--h5 class="card-title">Celular Samsung Galaxy A15 LTE Blue Black<h5>
         <p class="card-text">ANTES $419.999  AHORA $349.999</p>
-        <a href="#" class="btn btn-primary">Ver Producto</a>
+        <a href="#" class="btn btn-primary">Ver Producto</a-->
+
       </div>
     </div>
   </div>
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card shadow p-3 mb-4 " style="width:60%; border: 2px solid black">
-    <img src="img/Notebook1.png" class="card-img-top" alt="Notebook en oferta">
+
+    
       <div class="card-body">
-        <h5 class="card-title">Notebook Lenovo IdeaPad 1 14” Intel Celeron<h5>
+        <div  class="text-center tarjeta" data-id="4"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="1">Ver Detalle..</button>
+        <!--h5 class="card-title">Notebook Lenovo IdeaPad 1 14” Intel Celeron<h5>
         <p class="card-text">ANTES $749.999    AHORA $699.999</p>
-        <a href="#" class="btn btn-primary">Ver Producto</a>
+        <a href="#" class="btn btn-primary">Ver Producto</a-->
+
       </div>
     </div>
 </div>
@@ -115,17 +126,21 @@
   <!-- lista productos -->
   <div class="card-group">
     <div class="card m-1" style="border: 2px solid black">
-      <img src="img/celular1.png" class="card-img-top" alt="...">
+      
       <div class="card-body">
-        <h5 class="card-title">Samsung Galaxy A15</h5>
-        <button type="button" class="btn btn-primary">Ver Producto</button>
+        <div  class="text-center tarjeta" data-id="1"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="1">Ver Detalle..</button>
+        <!--h5 class="card-title">Samsung Galaxy A15</h5>
+        <button type="button" class="btn btn-primary">Ver Producto</button-->
       </div>
     </div>
     <div class="card m-1" style="border: 2px solid black">
-      <img src="img/celular2.png" class="card-img-top" alt="...">
+     
       <div class="card-body">
-        <h5 class="card-title">Motorola G24</h5>
-        <button type="button" class="btn btn-primary">Ver Producto</button>
+        <div  class="text-center tarjeta" data-id="2"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="1">Ver Detalle..</button>
+        <!--h5 class="card-title">Motorola G24</h5>
+        <button type="button" class="btn btn-primary">Ver Producto</button-->
       </div>
     </div>
 
@@ -138,24 +153,31 @@
 
 <div class="card-group">
   <div class="card m-4" style="border: 2px solid black">
-    <img src="img/Celular1.png" class="card-img-top" alt="Samsung Galaxy A15">
+
+    
     <div class="card-body" >
-      <h5 class="card-title">Samsung Galaxy A15</h5>
-      <button type="button" class="btn btn-primary">Ver Producto</button>
+      <div  class="text-center tarjeta" data-id="1"><!-- Aquí se mostrarán los datos --></div>
+      <button class="btn-mostrar btn btn-primary " data-id="1">Ver Detalle..</button>
+      <!--h5 class="card-title">Samsung Galaxy A15</h5>
+      <button type="button" class="btn btn-primary">Ver Producto</button-->
     </div>
   </div>
   <div class="card m-4" style="border: 2px solid black">
-    <img src="img/Celular2.png" class="card-img-top" alt="Motorola G24">
+    
     <div class="card-body">
-      <h5 class="card-title">Motorola G24</h5>
-      <button type="button" class="btn btn-primary">Ver Producto</button>
+      <div  class="text-center tarjeta" data-id="2"><!-- Aquí se mostrarán los datos --></div>
+      <button class="btn-mostrar btn btn-primary " data-id="2">Ver Detalle..</button>
+      <!--h5 class="card-title">Motorola G24</h5>
+      <button type="button" class="btn btn-primary">Ver Producto</button-->
     </div>
   </div>
   <div class="card m-4" style="border: 2px solid black">
-    <img src="img/Celular3.png" class="card-img-top" alt="Xiaomi Redmi Note 13">
+    
     <div class="card-body">
-      <h5 class="card-title">Xiaomi Redmi Note 13</h5>
-      <button type="button" class="btn btn-primary">Ver Producto</button>
+      <div  class="text-center tarjeta" data-id="3"><!-- Aquí se mostrarán los datos --></div>
+      <button class="btn-mostrar btn btn-primary " data-id="3">Ver Detalle..</button>
+      <!--h5 class="card-title">Xiaomi Redmi Note 13</h5>
+      <button type="button" class="btn btn-primary">Ver Producto</button-->
     </div>
   </div>
   </div>
@@ -164,25 +186,33 @@
 
   <div class="card-group">
 
-  <div class="card m-4" style="border: 2px solid black">
-    <img src="img/Notebook1.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lenovo IdeaPad 1 </h5>
-      <button type="button" class="btn btn-primary">Ver Producto</button>
+    <div class="card m-4" style="border: 2px solid black">
+     
+      <div class="card-body">
+        <div  class="text-center tarjeta" data-id="4"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="4">Ver Detalle..</button>
+        <!--h5 class="card-title">Lenovo IdeaPad 1 </h5>
+        <button type="button" class="btn btn-primary">Ver Producto</button-->
+      </div>
     </div>
-  </div>
-  <div class="card m-4" style="border: 2px solid black">
-    <img src="img/Notebook2.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">NSX Kairos Intel Core i5 </h5>
-      <button type="button" class="btn btn-primary">Ver Producto</button>
+    <div class="card m-4" style="border: 2px solid black">
+     
+      <div class="card-body">
+        <div  class="text-center tarjeta" data-id="5"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="5">Ver Detalle..</button>
+        <!--h5 class="card-title">NSX Kairos Intel Core i5 </h5>
+        <button type="button" class="btn btn-primary">Ver Producto</button-->
+      </div>
     </div>
-  </div>
-  <div class="card m-4" style="border: 2px solid black">
-    <img src="img/Notebook3.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"> Aiwa 15,6" Core i5</h5>
-      <button type="button" class="btn btn-primary">Ver Producto</button>
+    <div class="card m-4" style="border: 2px solid black">
+     
+      <div class="card-body">
+        <div  class="text-center tarjeta" data-id="6"><!-- Aquí se mostrarán los datos --></div>
+        <button class="btn-mostrar btn btn-primary " data-id="6">Ver Detalle..</button>
+        <!--h5 class="card-title"> Aiwa 15,6" Core i5</h5>
+        <button type="button" class="btn btn-primary">Ver Producto</button-->
+
+      </div>
 
     </div>
   </div>
