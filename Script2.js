@@ -5,13 +5,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Recupera el array de productos de LocalStorage
     const productos = JSON.parse(localStorage.getItem('productos'));
-
+    console.log(productoId);
     // Encuentra el producto correspondiente por ID
     const producto = productos.find(p => p.id === productoId);
     
     // Muestra los detalles del producto
     
     detalleproducto.innerHTML = `
+    </br><h1 class="text-center">Detalles del Producto</h1></br>
     <div class="card mb-3 " style="wh;">
         <div class="row g-0">
             <div class="col-md-4">

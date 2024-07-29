@@ -48,31 +48,30 @@ const productos = [
       imagen: '/img/Notebook3.png'
     }
   ];
-// ---------------------
+// --------------------- Verifica la opcion del menu productos elegida
+
 document.addEventListener('DOMContentLoaded', function () {
   localStorage.setItem('productos', JSON.stringify(productos));
-
+  
             // Agrega el evento de clic a los elementos del menú
             document.querySelectorAll('.item').forEach(function (item) {
                 item.addEventListener('click', function () {
                     const productoId = this.dataset.id;
-                    // Redirige a la página de detalles con el ID del producto en la URL
-                    
+                    console.log(productoId);
+                    // Redirige a la página de detalles con el ID del producto en la URL              
                     window.location.href = `Descripcion.html?id=${productoId}`;
-                });
-            });
-          });
-//-------------------------
+              });
+        });
+        
+    });
+//-----------------------
+
+// ---------------------- Hace el recorrido por la pagina y rellena los datos de los productos
   
   document.addEventListener('DOMContentLoaded', mostrarProductosEnTarjetas);
-
-  
-
   document.querySelectorAll('.btn-mostrar').forEach(button => {
     button.addEventListener('click', (event) => {
       const id = parseInt(event.target.getAttribute('data-id'));
-      console.log(`Botón ${id} clickeado`);
-      mostrarDatos(id);
     });
   }); 
 
