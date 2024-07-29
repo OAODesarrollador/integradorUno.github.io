@@ -27,7 +27,7 @@ const productos = [
       id: 4,
       nombre: 'Lenovo IdeaPad 1',
       categoria: 'Notebooks',
-      descripcion: 'Descripción del Producto 3',
+      descripcion: 'Descripción del Producto 4',
       precio: '30.00',
       imagen: '/img/Notebook1.png'
     },
@@ -35,7 +35,7 @@ const productos = [
       id: 5,
       nombre: 'NSX Kairos Intel Core i5',
       categoria: 'Notebooks',
-      descripcion: 'Descripción del Producto 3',
+      descripcion: 'Descripción del Producto 5',
       precio: '30.00',
       imagen: '/img/Notebook2.png'
     },
@@ -43,13 +43,30 @@ const productos = [
       id: 6,
       nombre: 'Aiwa 15,6" Core i5',
       categoria: 'Notebooks',
-      descripcion: 'Descripción del Producto 3',
+      descripcion: 'Descripción del Producto 6',
       precio: '30.00',
       imagen: '/img/Notebook3.png'
     }
   ];
+// ---------------------
+document.addEventListener('DOMContentLoaded', function () {
+  localStorage.setItem('productos', JSON.stringify(productos));
 
+            // Agrega el evento de clic a los elementos del menú
+            document.querySelectorAll('.item').forEach(function (item) {
+                item.addEventListener('click', function () {
+                    const productoId = this.dataset.id;
+                    // Redirige a la página de detalles con el ID del producto en la URL
+                    
+                    window.location.href = `Descripcion.html?id=${productoId}`;
+                });
+            });
+          });
+//-------------------------
+  
   document.addEventListener('DOMContentLoaded', mostrarProductosEnTarjetas);
+
+  
 
   document.querySelectorAll('.btn-mostrar').forEach(button => {
     button.addEventListener('click', (event) => {
@@ -77,3 +94,5 @@ const productos = [
       }
     });
   }
+
+  
