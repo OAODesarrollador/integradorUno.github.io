@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Muestra los detalles del producto
     
     detalleproducto.innerHTML = `
-    </br><h1 class="text-center">Detalles del Producto</h1></br>
+    
     <div class="card mb-3 " style="wh;">
         <div class="row g-0">
             <div class="col-md-4">
