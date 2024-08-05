@@ -6,7 +6,8 @@ const productos = [
       descripcion: 'Descripción del Producto 1',
       precio: '10.00',
       imagen: '/img/Celular1.png',
-      caracteristica:'Pantalla 6.5" FHD+ Super AMOLED (90Hz) Cámara de 50MP Procesador Octa-Core Tecnología NFC'
+      caracteristica:'Pantalla 6.5" FHD+ Super AMOLED (90Hz) Cámara de 50MP Procesador Octa-Core Tecnología NFC',
+      texto:'Imagen_representativa_de_la_parte_frontal_del_celular_Sansug_Galaxy_A15'
     },
     {
       id: 2,
@@ -15,7 +16,8 @@ const productos = [
       descripcion: 'Descripción del Producto 2',
       precio: '20.00',
       imagen: '/img/Celular2.png',
-      caracteristica: 'Te presentamos el Motorola Moto G24 con un procesador Octa-Core 2.0GHz para que estés al día con todas las aplicaciones y juegos de última generación. Descubrí todas las posibilidades para tus fotos, tanto de día como de noche, con la cámara de 50+2 MP. Memoria interna de 128 GB y expandible con una MicroSd hasta 1TB'
+      caracteristica: 'Te presentamos el Motorola Moto G24 con un procesador Octa-Core 2.0GHz para que estés al día con todas las aplicaciones y juegos de última generación. Descubrí todas las posibilidades para tus fotos, tanto de día como de noche, con la cámara de 50+2 MP. Memoria interna de 128 GB y expandible con una MicroSd hasta 1TB',
+      texto:'2_Imagenes_fotográficas_del_teléfono_Motorola_G24_uno_frontal_y_el_otro_posterior_mostrando_las_lentes_de_las_cámaras',
     },
     {
       id: 3,
@@ -24,7 +26,8 @@ const productos = [
       descripcion: 'Descripción del Producto 3',
       precio: '30.00',
       imagen: '/img/Celular3.png',
-      caracteristica:'Te presentamos el Xiaomi Redmi Note 13 con un procesador Octa-Core 2.8GHz para que estés al día con todas las aplicaciones y juegos de última generación. Descubrí todas las posibilidades para tus foto, tanto de día como de noche, con la cámara de 108+8+2MP. Memoria interna de 256 GB y expandible con una MicroSd hasta 1TB'
+      caracteristica:'Te presentamos el Xiaomi Redmi Note 13 con un procesador Octa-Core 2.8GHz para que estés al día con todas las aplicaciones y juegos de última generación. Descubrí todas las posibilidades para tus foto, tanto de día como de noche, con la cámara de 108+8+2MP. Memoria interna de 256 GB y expandible con una MicroSd hasta 1TB',
+      texto:'Imagen_representativa_de_la_parte_frontal_del_celular_Xiaomi_Readme_Note_13'
     },
     {
       id: 4,
@@ -33,7 +36,8 @@ const productos = [
       descripcion: 'Descripción del Producto 4',
       precio: '30.00',
       imagen: '/img/Notebook1.png',
-      caracteristica: 'El Lenovo IdeaPad 1 14IGL7 82V6001DUS es una opción ideal para tareas informáticas básicas y la movilidad diaria. Con su procesador Intel Pentium Silver N5030 de hasta 3.1GHz y 4GB de memoria RAM DDR4, este portátil ofrece un rendimiento adecuado para actividades como navegar por internet, revisar correos electrónicos, ver contenido multimedia y trabajar en documentos sencillos. Aunque su almacenamiento eMMC de 128GB puede ser limitado para grandes archivos y programas, es suficiente para almacenar documentos y archivos personales. La pantalla HD de 14" con tecnología TN Anti-Glare ofrece una visualización decente para tareas básicas. Con puertos USB 2.0, USB 3.2 y USB-C, este portátil permite la conexión de periféricos y dispositivos externos. La conectividad Wifi 6 y Bluetooth 5.1 proporciona opciones de conexión rápidas y confiables, mientras que la webcam HD y el lector de tarjetas de memoria añaden funcionalidades útiles. Con el sistema operativo Windows 11 Home en modo S preinstalado, este portátil ofrece una experiencia moderna y segura para usuarios que buscan una solución básica y portátil en un elegante color Cloud Grey.'
+      caracteristica: 'El Lenovo IdeaPad 1 14IGL7 82V6001DUS es una opción ideal para tareas informáticas básicas y la movilidad diaria. Con su procesador Intel Pentium Silver N5030 de hasta 3.1GHz y 4GB de memoria RAM DDR4, este portátil ofrece un rendimiento adecuado para actividades como navegar por internet, revisar correos electrónicos, ver contenido multimedia y trabajar en documentos sencillos. Aunque su almacenamiento eMMC de 128GB puede ser limitado para grandes archivos y programas, es suficiente para almacenar documentos y archivos personales. La pantalla HD de 14" con tecnología TN Anti-Glare ofrece una visualización decente para tareas básicas. Con puertos USB 2.0, USB 3.2 y USB-C, este portátil permite la conexión de periféricos y dispositivos externos. La conectividad Wifi 6 y Bluetooth 5.1 proporciona opciones de conexión rápidas y confiables, mientras que la webcam HD y el lector de tarjetas de memoria añaden funcionalidades útiles. Con el sistema operativo Windows 11 Home en modo S preinstalado, este portátil ofrece una experiencia moderna y segura para usuarios que buscan una solución básica y portátil en un elegante color Cloud Grey.',
+      texto:'Imagen_de_la_Notebook_Lenovo_IdeaPAd_1_abierto_a_unos_110°_mostrando_pantalla_y_teclado'
     },
     {
       id: 5,
@@ -42,7 +46,8 @@ const productos = [
       descripcion: 'Descripción del Producto 5',
       precio: '30.00',
       imagen: '/img/Notebook2.png',
-      caracteristica: 'La Notebook Nsx Kairos I5 16gb Ram 500gb Ssd Freedos es el compañero perfecto para aquellos que buscan potencia y rendimiento en un dispositivo portátil. Con su procesador Intel Core i5 10210U y 16 GB de memoria RAM DDR4, podrás realizar múltiples tareas sin problemas. Su disco SSD de 500 GB garantiza una rápida respuesta y almacenamiento eficiente. La pantalla de 14.1" con resolución de 1920 px x 1080 px te brinda una experiencia visual inmersiva. Además, cuenta con una tarjeta gráfica Intel UHD graphics para disfrutar de imágenes nítidas y colores vibrantes. Su batería de 3600 mAh te permite utilizarla durante horas sin preocuparte por quedarte sin energía. Con Wi-Fi incorporado, podrás conectarte a internet en cualquier lugar. La Notebook Nsx Kairos I5 16gb Ram 500gb Ssd Freedos es la elección ideal para aquellos que buscan un equipo confiable y de alto rendimiento.'
+      caracteristica: 'La Notebook Nsx Kairos I5 16gb Ram 500gb Ssd Freedos es el compañero perfecto para aquellos que buscan potencia y rendimiento en un dispositivo portátil. Con su procesador Intel Core i5 10210U y 16 GB de memoria RAM DDR4, podrás realizar múltiples tareas sin problemas. Su disco SSD de 500 GB garantiza una rápida respuesta y almacenamiento eficiente. La pantalla de 14.1" con resolución de 1920 px x 1080 px te brinda una experiencia visual inmersiva. Además, cuenta con una tarjeta gráfica Intel UHD graphics para disfrutar de imágenes nítidas y colores vibrantes. Su batería de 3600 mAh te permite utilizarla durante horas sin preocuparte por quedarte sin energía. Con Wi-Fi incorporado, podrás conectarte a internet en cualquier lugar. La Notebook Nsx Kairos I5 16gb Ram 500gb Ssd Freedos es la elección ideal para aquellos que buscan un equipo confiable y de alto rendimiento.',
+      texto:'Imagen_de_la_Notebook_NSX_Kairos_Intel_Core_I5_abierto_de_frente_mostrando_pantalla_y_teclado'
     },
     {
       id: 6,
@@ -51,7 +56,8 @@ const productos = [
       descripcion: 'Descripción del Producto 6',
       precio: '30.00',
       imagen: '/img/Notebook3.png',
-      caracteristica:'Procesador Intel Core i5 para un rendimiento eficiente. 8GB de RAM para una experiencia multitarea sin interrupciones. 256GB SSD para un arranque y acceso rápido a tus archivos. Pantalla Full HD de 15.6" que brinda imágenes claras y nítidas. Windows 10 preinstalado, actualizado y seguro. Perfecta para profesionales que buscan rendimiento y fiabilidad en su jornada laboral. ¡No te la pierdas!'
+      caracteristica:'Procesador Intel Core i5 para un rendimiento eficiente. 8GB de RAM para una experiencia multitarea sin interrupciones. 256GB SSD para un arranque y acceso rápido a tus archivos. Pantalla Full HD de 15.6" que brinda imágenes claras y nítidas. Windows 10 preinstalado, actualizado y seguro. Perfecta para profesionales que buscan rendimiento y fiabilidad en su jornada laboral. ¡No te la pierdas!',
+      texto:'Imagen_de_la_Notebook_AIwa_Core_I5_abierto_a_unos_100°_mostrando_pantalla_y_teclado'
     }
   ];
 // --------------------- Verifica la opcion del menu productos elegida
@@ -91,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       if (producto) {
         tarjeta.innerHTML = `
-          <img src=${producto.imagen} class="card-img-top" alt="...">
+          <img src=${producto.imagen} class="card-img-top" alt=${producto.texto}>
           <h3>${producto.nombre}</h3>
           <p>${producto.descripcion}</p>
           <h3><p><strong>$${producto.precio}</strong></p></h3>
@@ -100,4 +106,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+
+// ---------------------- Cambio Modo --------------------
+document.querySelector('body').style.backgroundColor = '#163340';
+document.querySelector('body').setAttribute('data-bs-theme','dark');
+document.querySelector('#menu').style.backgroundColor = '#4e4e4e';
+
+const claro = () => {
+    document.querySelector('body').style.backgroundColor = '#163340';
+    document.querySelector('body').setAttribute('data-bs-theme','dark')
+    document.querySelector('#iconoModo').setAttribute('class', 'bi bi-sun-fill')
+    document.querySelector('#menu').style.backgroundColor = '#4e4e4e';
+    
+}
+const oscuro = () => { 
+    document.querySelector('body').style.backgroundColor = '#82d6fb';//cambia color a claro
+    document.querySelector('body').setAttribute('data-bs-theme','light')
+    document.querySelector('#iconoModo').setAttribute('class', 'bi bi-moon-fill')
+    document.querySelector('#menu').style.backgroundColor = '#dbd9d9';
+    
+}
+const cambiarTema  = () => {
   
+    document.querySelector('body').getAttribute('data-bs-theme') === 'dark'?
+    oscuro() : claro();
+}

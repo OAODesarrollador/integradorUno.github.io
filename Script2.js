@@ -10,13 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const producto = productos.find(p => p.id === productoId);
     
     // Muestra los detalles del producto
-    
+    console.log(producto.texto);
     detalleproducto.innerHTML = `
-    
     <div class="card mb-3 mt-3" style="wh;">
         <div class="row g-0">
             <div class="col-md-5">
-                <img src=${producto.imagen} class="card-img-top" alt="...">
+                <img src=${producto.imagen} class="card-img-top" alt=${producto.texto}>
             </div>
             <div class="col-md-6 ms-5">
                 <div class="card-body">

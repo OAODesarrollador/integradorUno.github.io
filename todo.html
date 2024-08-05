@@ -23,63 +23,60 @@
 
 
     <body>
-        <nav class="navbar  navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="Inicio.html">
-                    CELUNET
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Catalogo
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="Productos.html">Todo</a></li>
-                                <li><a class="dropdown-item" href="Celulares.html">Celulares</a></li>
-                                <li><a class="dropdown-item" href="Notebooks.html">Notebooks</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="Descripcion.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item item" data-id="1">Celular Samsung Galaxy</a></li>
-                                <li><a class="dropdown-item item" data-id="2">Celular Motorola G24</a></li>
-                                <li><a class="dropdown-item item" data-id="3">Celular Xiaomi Redmi</a></li>
-                                <li><a class="dropdown-item item" data-id="4">Notebook Lenovo IdeaPad 1</a></li>
-                                <li><a class="dropdown-item item" data-id="5">Notebook NSX Kairos</a></li>
-                                <li><a class="dropdown-item item" data-id="6">Notebook Aiwa 15,6"</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="">
-                    <a href="" style="text-decoration: none;color: white;">
-                        <i class="bi bi-search " style="color: white; width: 24; height: 24; margin: 5px;"></i>
-                    </a>
-                    <a href="" style="text-decoration: none;color: white;">
-                        <i class="bi bi-person-circle" style="color: white; width: 24; height: 24; margin: 5px;"></i>
-                        Mi cuenta</a>
-                    <a href="">
-                        <i class="bi bi-bag" style="color: white; width: 24; height: 24; margin: 5px;"></i>
-                    </a>
-                </div>
-            </div>
-        </nav>
+        <!-- navbar -->
+
+  <nav id="menu" class="navbar  navbar-expand-lg border-bottom fixed-top"  >
+    <div class="container-fluid" >
+        <a class="navbar-brand h1" href="/index.html">
+        CELUNET
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catalogo
+            </a>
+            <ul class="dropdown-menu">
+
+              <li><a class="dropdown-item" href="/todo.html">Todo</a></li>
+
+              <li><a class="dropdown-item" href="/Celulares.html">Celulares</a></li>
+              <li><a class="dropdown-item" href="/Notebooks.html">Notebooks</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Descripcion.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item item" data-id="1">Celular Samsung Galaxy</a></li>
+
+              <li><a class="dropdown-item item" data-id="2">Celular Motorola G24</a></li>
+              <li><a class="dropdown-item item" data-id="3">Celular Xiaomi Redmi</a></li>
+              <li><a class="dropdown-item item" data-id="4">Notebook Lenovo IdeaPad 1</a></li>
+              <li><a class="dropdown-item item" data-id="5">Notebook NSX Kairos</a></li>
+              <li><a class="dropdown-item item" data-id="6">Notebook Aiwa 15,6"</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <!-- Tema -->
+        <div class="" >
+          <button class="btn rounded-fill ms-auto" onclick="cambiarTema()" ><i class="bi bi-sun-fill" id="iconoModo">  Modo</i></button>
+        </div>  
+        <!--  -->
+      </div>
+    </div>
+  </nav>
         <header>
-            <h4 class="" style="margin: 5px; color: white;">Categorias / Todo</h4>
+            <h4 class="titulo text-center h1" style="margin: 5px; color: white;">Categoría: Todo</h4>
         </header>
 
         <!-- lista productos -->

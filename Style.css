@@ -1,13 +1,19 @@
-﻿body {
-	background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(2, 160, 221, 1) 27%, rgba(0, 212, 255, 1) 51%, rgba(2, 160, 221, 1) 72%, rgba(0, 212, 255, 1) 90%);
+﻿* {
+	margin: 0;
+	padding: 0;
 }
+/*body {
+	background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(2, 160, 221, 1) 27%, rgba(0, 212, 255, 1) 51%, rgba(2, 160, 221, 1) 72%, rgba(0, 212, 255, 1) 90%);
+}*/
 
 .oferta {
 	margin-left: 15%;
-
 }
 
-
+.titulo {
+	padding: 5% 0 1% 0;
+	display: block;
+}
 .beneficios {
 	margin-left: 10%;
 }
